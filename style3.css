@@ -1,17 +1,4 @@
-/*img{
-    width: 800px;
-    height:600px
-}*/
 
-*{
-    font-family:'open sans', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-weight: 600;
-}
-
-/* cuerpo de la pagina*/
 
 .main-title{
     text-align: center;
@@ -42,20 +29,13 @@ h1{
 
 .content{
     text-align: center;
-    font-size: 12px;
-    font-weight:15;
+    font-size: 20px;
+    font: weight 10px;
     font-style: italic;
     position:relative;
 }
 
-#navigation {
-    height: 100px;
-    width: 100px ;
-    border: 30px; 
-    display:flex;
-    
-    
- }
+
 
 header{
     width: 100%;
@@ -72,17 +52,22 @@ header{
 }
 
 .events{
-    width: 90%;
+    width: 50%;
     height: 280px;
     border: 5px gray solid;
     padding: 7px 5px 5px 5px;
     margin: 17px 15px 20px 10px;
     justify-content: center;
+    font-size: 16px;
+    font-weight: 10px;
+    position: relative;
+    font-style: italic;
+
 }
 
-table tr{
-    border: 1px solid black;
-      border-collapse: collapse;
+.navigation{
+    font-size: 20px;
+    justify-content: initial;
 }
 
 
