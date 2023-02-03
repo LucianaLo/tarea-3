@@ -1,3 +1,6 @@
+*{
+    background-color: lavender;
+}
 
 
 .main-title{
@@ -22,8 +25,8 @@ h1{
 
 .logo{
     width: 125px;
-    left: 700px;
-    top: 70px;
+    left: 1000px;
+    top: 90px;
     z-index: 2;
 }
 
