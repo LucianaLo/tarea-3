@@ -25,9 +25,9 @@ h1{
 
 .logo{
     width: 125px;
-    left: 1000px;
+    left: 100px;
     top: 90px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .content{

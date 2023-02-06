@@ -91,20 +91,15 @@
 
         <fieldset>
             <label for="uniformsize">Uniform size</label> <br>
-            <input type="checkbox" name="uniformsize" id="y-s">
-            <label for="y-s">Youth Smal</label>
-            <input type="checkbox" name="uniformsize" id="medium">
-            <label for="medium">Medium</label> <br>
-            <input type="checkbox" name="uniformsize" id="y-m"> 
-            <label for="y-m">Youth Medium</label>
-            <input type="checkbox" name="uniformsize" id="large">
-            <label for="large">Large</label> <br>
-            <input type="checkbox" name="uniformsize" id="y-l">
-            <label for="y-l">Youth Large</label>  
-            <input type="checkbox" name="uniformsize" id="e-l">
-            <label for="e-l">Extra Large</label> <br>
-            <input type="checkbox" name="uniformsize" id="small">
-            <label for="small">Small</label> <br>    
+            <select name="uniformsize" id="uniformsize">
+                <option value="y-s">Youth Smal</option>
+                <option value="medium">Medium</option>
+                <option value="y-m">Youth Medium</option>
+                <option value="large">Large</option>
+                <option value="y-l">Youth Large</option>
+                <option value="e-l">Extra Large</option>
+                <option value="small">Small</option>
+            </select>
         </fieldset>
         
         <fieldset>
@@ -119,6 +114,11 @@
             <input type="date" name="date" id="date">
         
         </fieldset>
+
+        <label></label>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
 
         
 
