@@ -43,39 +43,35 @@
 
         <fieldset>
             <label for="grade">Grade:</label>
-            <input type="checkbox" name="grade" id="preschool">
+            <input type="radio" name="grade" id="preschool">
             <label for="preschool">Pre-School:</label>
-            <input type="checkbox" name="preschool" id="first"> 
+            <input type="radio" name="preschool" id="first"> 
             <label for="first">1st</label>
-            <input type="checkbox" name="preschool" id="second">
+            <input type="radio" name="preschool" id="second">
             <label for="second">2nd</label>
-            <input type="checkbox" name="preschool" id="third">
+            <input type="radio" name="preschool" id="third">
             <label for="third">3rd</label>
-            <input type="checkbox" name="preschool" id="fourth">
+            <input type="radio" name="preschool" id="fourth">
             <label for="fourth">4th</label>
-            <input type="checkbox" name="preschool" id="fifth"> 
+            <input type="radio" name="preschool" id="fifth"> 
             <label for="fifth">5th</label>  
         </fieldset>
 
         <fieldset>
-            <label for="schoolnear"> Wich elementary school do you live near? </label>
+            <label for="schoolnear"> Wich elementary school do you live near? </label><br>
+            <label for="closeschool">Closest School:</label> <br>
+            <select name="schoolnear" id="schoolnear"> 
+                <option value="aj-k">AJ Katzenmaier</option>
+                <option value="m-p-j">Marjorie P Hart</option>
+                <option value="greenb">Greenbay</option>
+                <option value="n-e">North Elementary</option>
+                <option value="h-a-y">Howard A Yeager</option>
+                <option value="s-e">South Elementar</option>
+        
+            </select>
+
         </fieldset>
 
-        <fieldset>
-            <label for="closeschool">Closest School:</label> <br>
-            <input type="checkbox" name="closeschool" id="aj-k">
-            <label for="aj-k">AJ Katzenmaier</label>
-            <input type="checkbox" name="closeschool" id="m-p-j">
-            <label for="m-p-j">Marjorie P Hart</label> <br>
-            <input type="checkbox" name="closeschool" id="greenb">
-            <label for="greenb">Greenbay</label>
-            <input type="checkbox" name="closeschool" id="n-e">
-            <label for="n-e">North Elementary</label> <br>
-            <input type="checkbox" name="closeschool" id="h-a-y"> 
-            <label for="h-a-y">Howard A Yeager</label>
-            <input type="checkbox" name="closeschool" id="s-e">
-            <label for="s-e">South Elementary</label>
-        </fieldset>
         
         <fieldset>
             <label for="positionplayers">What position(s) do you normally play? (check all that apply)</label> <br>
@@ -91,15 +87,21 @@
 
         <fieldset>
             <label for="uniformsize">Uniform size</label> <br>
-            <select name="uniformsize" id="uniformsize">
-                <option value="y-s">Youth Smal</option>
-                <option value="medium">Medium</option>
-                <option value="y-m">Youth Medium</option>
-                <option value="large">Large</option>
-                <option value="y-l">Youth Large</option>
-                <option value="e-l">Extra Large</option>
-                <option value="small">Small</option>
-            </select>
+            <input type="checkbox" name="uniformsize" id="y-s">
+            <label for="y-s">Youth Smal</label>
+            <input type="checkbox" name="uniformsize" id="medium">
+            <label for="medium">Medium</label> <br>
+            <input type="checkbox" name="uniformsize" id="y-m"> 
+            <label for="y-m">Youth Medium</label>
+            <input type="checkbox" name="uniformsize" id="large">
+            <label for="large">Large</label> <br>
+            <input type="checkbox" name="uniformsize" id="y-l">
+            <label for="y-l">Youth Large</label>  
+            <input type="checkbox" name="uniformsize" id="e-l">
+            <label for="e-l">Extra Large</label> <br>
+            <input type="checkbox" name="uniformsize" id="small">
+            <label for="small">Small</label> <br>    
+
         </fieldset>
         
         <fieldset>
