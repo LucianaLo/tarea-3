@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="style-form.css">
 </head>
 <body>
@@ -41,7 +41,7 @@
 
     <form action="./show_data.html" method="get">
         
-        <fieldset>
+        <fieldset><br>
             
             <label for="FirstName">Player's First Name</label>
             <input type="text" name="FirstName" id="FirstName" placeholder="Homer" required>
@@ -65,47 +65,47 @@
         <fieldset>
             <label for="birthdate">Birth Date(mm/dd/yyyy)</label>
             <input type="date" name="birthdate" id="birthdate" required>
-            <label for="gender">Gender:</label>
-            <input type="text" name="gender" id="gender" required>
+            <p>Gender:</p>
             <label for="female">Female</label>
-            <input type="radio" name="genero" id="female" required> 
+            <input type="radio" name="genero" id="female" value="fem" required > 
             <label for="male">Male</label>
-            <input type="radio" name="genero" id="male" required>
+            <input type="radio" name="genero" id="male" value="masc" required>
         </fieldset>
 
         <fieldset>
             <p>Grade:</p>
             <input type="radio" name="grade" id="preschool" required>
             <label for="preschool">Pre-School:</label>
-            <input type="radio" name="grade" id="first" required> 
+            <input type="radio" name="grade" id="first" value="first" required> 
             <label for="first">1st</label>
-            <input type="radio" name="grade" id="second" required>
+            <input type="radio" name="grade" id="second" value="second" required>
             <label for="second">2nd</label>
-            <input type="radio" name="grade" id="third" required>
+            <input type="radio" name="grade" id="third" value="third" required>
             <label for="third">3rd</label>
-            <input type="radio" name="grade" id="fourth" required>
+            <input type="radio" name="grade" id="fourth" value="fourth" required>
             <label for="fourth">4th</label>
-            <input type="radio" name="grade" id="fifth" required> 
+            <input type="radio" name="grade" id="fifth" value="fifth" required> 
             <label for="fifth">5th</label>  
         </fieldset>
 
-        <fieldset>
+        <fieldset><br>
             <p> <b>Wich elementary school do you live near?</b> </p>
            <br> <label for="schoolnear">Closest School:</label> <br>
-            <select name="schoolnear" id="schoolnear"> 
+            <select name="schoolnear" id="schoolnear">
+                <option value="">--please choose an option--</option> 
                 <option value="a-j-k">AJ Katzenmaier</option>
                 <option value="m-p-j">Marjorie P Hart</option>
                 <option value="greenb">Greenbay</option>
                 <option value="n-e">North Elementary</option>
                 <option value="h-a-y">Howard A Yeager</option>
-                <option value="s-e">South Elementar</option>
+                <option value="s-e">South Elementar</option> 
         
             </select>
 
         </fieldset>
 
        
-        <fieldset>
+        <fieldset><br>
             <p><b>What position(s) do you normally play? (check all that apply)</b></p>
             
             <label for="fordward">Forward</label>
@@ -122,42 +122,42 @@
         </fieldset>
    
 
-        <fieldset>
+        <fieldset><br>
             <p><b>Uniform size</b></p>
 
             <label for="y-s">Youth Smal</label>
-            <input type="checkbox" name="uniformsize" id="y-s">
+            <input type="checkbox" name="uniformsize" id="y-s" value="y-s">
 
             <label for="medium">Medium</label>
-            <input type="checkbox" name="uniformsize" id="medium"><br>
+            <input type="checkbox" name="uniformsize" id="medium" value="medium"><br>
 
             <label for="y-m">Youth Medium</label>
-            <input type="checkbox" name="uniformsize" id="y-m"> 
+            <input type="checkbox" name="uniformsize" id="y-m" value="y-m"> 
             
             <label for="large">Large</label> 
-            <input type="checkbox" name="uniformsize" id="large"><br>
+            <input type="checkbox" name="uniformsize" id="large" value="large"><br>
 
             <label for="y-l">Youth Large</label>
-            <input type="checkbox" name="uniformsize" id="y-l">
+            <input type="checkbox" name="uniformsize" id="y-l" value="y-l">
 
             <label for="e-l">Extra Large</label>
-            <input type="checkbox" name="uniformsize" id="e-l"><br>
+            <input type="checkbox" name="uniformsize" id="e-l" value="e-l"><br>
             
             <label for="small">Small</label>
-            <input type="checkbox" name="uniformsize" id="small">
+            <input type="checkbox" name="uniformsize" id="small" value="small">
                  
 
         </fieldset>
         
-        <fieldset>
+        <fieldset><br>
         
             <h3>Permission to play</h3> <br>
             <p>I, the parent o guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hochey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, i hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation. <br>
             By singning below, i herebyagree andauthorizethe above. in addition, by singning below, lalso acknowledge rhat i have read the cancellation policy and agree to its terms.
             </p>
             
-            <label for="p/g-s">Parent/GuardianSignature:</label>
-            <input type="text" name="p/g-s" id="p/g-s"> <br>
+            <label for="p-g-s">Parent/GuardianSignature:</label>
+            <input type="text" name="p-g-s" id="p-g-s"> <br>
             <label for="date">Date</label>
             <input type="date" name="date" id="date" required>
         

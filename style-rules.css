@@ -1,4 +1,8 @@
-
+* {
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+}
 
 body{
 background-color:antiquewhite;
@@ -44,8 +48,10 @@ a{
    border:solid 1px black;
    width: 80%;
    margin: 0 auto;
-   padding: 5px; 
-   background-color:bisque; 
+   padding: 28px; 
+   background-color:bisque;
+    
+
 }
 
 .title_main {
@@ -55,3 +61,4 @@ a{
 .logo {
    width: 125px;
 }
+
