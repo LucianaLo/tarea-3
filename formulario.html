@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="style-form.css"
+    <link rel="stylesheet" href="style-form.css">
 </head>
 <body>
 
@@ -13,12 +13,11 @@
 
         <header class="title">
             <h1>Mighty Ducks Hockey League</h1>
-            <img class="logo" src="./imagenes/LogoMightyducks-01.png" alt="logo del equipo" width="125px">
+            <img class="logo" src="./imagenes/LogoMightyducks-01.png" alt="logo del equipo">
         
-             
-        </div>
         
         </header>
+    </div>
     
         <div>
         
@@ -44,56 +43,57 @@
         
         <fieldset>
             
-            <label for="First Name">Player's First Name</label>
-            <input type="text" name="First Name" id="First Name" placeholder="Homer">
-            <label for="last name">Last Name</label>
-            <input type="text" name="last name" id="first name" placeholder="Simpson">
+            <label for="FirstName">Player's First Name</label>
+            <input type="text" name="FirstName" id="FirstName" placeholder="Homer" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Simpson" required>
             
         </fieldset>
 
         <fieldset>
-            <label for="street address">Street Address</label>
-            <input type="text" name="street address" id="street address" placeholder="Evergreen Terrace">
+            <label for="streetaddress">Street Address</label>
+            <input type="text" name="streetaddress" id="streetaddress" placeholder="Evergreen Terrace" required>
         </fieldset>
 
         <fieldset>
             <label for="city">City</label>
-            <input type="text" name="city" id="city" placeholder="Springfield">
-            <label for="zip code">Zip Code</label>
-            <input type="number" name="zipCode" id="zipCode" placeholder="742">
+            <input type="text" name="city" id="city" placeholder="Springfield" required>
+            <label for="zipcode">Zip Code</label>
+            <input type="number" name="zipcode" id="zipcode" placeholder="742" required>
         </fieldset>
 
         <fieldset>
-            <label for="birth date">Birth Date(mm/dd/yyyy)</label>
-            <input type="date" name="birth date" id="birth date">
+            <label for="birthdate">Birth Date(mm/dd/yyyy)</label>
+            <input type="date" name="birthdate" id="birthdate" required>
             <label for="gender">Gender:</label>
+            <input type="text" name="gender" id="gender" required>
             <label for="female">Female</label>
-            <input type="radio" name="genero" id="female"> 
+            <input type="radio" name="genero" id="female" required> 
             <label for="male">Male</label>
-            <input type="radio" name="genero" id="male">
+            <input type="radio" name="genero" id="male" required>
         </fieldset>
 
         <fieldset>
-            <label for="grade">Grade:</label>
-            <input type="radio" name="grade" id="preschool">
+            <p>Grade:</p>
+            <input type="radio" name="grade" id="preschool" required>
             <label for="preschool">Pre-School:</label>
-            <input type="radio" name="preschool" id="first"> 
+            <input type="radio" name="grade" id="first" required> 
             <label for="first">1st</label>
-            <input type="radio" name="preschool" id="second">
+            <input type="radio" name="grade" id="second" required>
             <label for="second">2nd</label>
-            <input type="radio" name="preschool" id="third">
+            <input type="radio" name="grade" id="third" required>
             <label for="third">3rd</label>
-            <input type="radio" name="preschool" id="fourth">
+            <input type="radio" name="grade" id="fourth" required>
             <label for="fourth">4th</label>
-            <input type="radio" name="preschool" id="fifth"> 
+            <input type="radio" name="grade" id="fifth" required> 
             <label for="fifth">5th</label>  
         </fieldset>
 
         <fieldset>
-            <label for="schoolnear"> Wich elementary school do you live near? </label><br>
-            <label for="closeschool">Closest School:</label> <br>
+            <p> <b>Wich elementary school do you live near?</b> </p>
+           <br> <label for="schoolnear">Closest School:</label> <br>
             <select name="schoolnear" id="schoolnear"> 
-                <option value="aj-k">AJ Katzenmaier</option>
+                <option value="a-j-k">AJ Katzenmaier</option>
                 <option value="m-p-j">Marjorie P Hart</option>
                 <option value="greenb">Greenbay</option>
                 <option value="n-e">North Elementary</option>
@@ -104,35 +104,48 @@
 
         </fieldset>
 
-        
+       
         <fieldset>
-            <label for="positionplayers">What position(s) do you normally play? (check all that apply)</label> <br>
-            <input type="checkbox" name="positionplayers" id="fordward">
+            <p><b>What position(s) do you normally play? (check all that apply)</b></p>
+            
             <label for="fordward">Forward</label>
-            <input type="checkbox" name="positionplayers" id="midfield">
-            <label for="midfield">Midfield</label> <br>
-            <input type="checkbox" name="positionplayers" id="defense"> 
+            <input type="checkbox" name="positionplayers" id="fordward">
+            
+            <label for="midfield">Midfield</label>
+            <input type="checkbox" name="positionplayers" id="midfield"> <br>
+            
             <label for="defense">Defense</label>
-            <input type="checkbox" name="positionplayers" id="goalkeeper">
+            <input type="checkbox" name="positionplayers" id="defense"> 
+            
             <label for="goalkeeper">Goalkeeper</label>  
+            <input type="checkbox" name="positionplayers" id="goalkeeper">
         </fieldset>
+   
 
         <fieldset>
-            <label for="uniformsize">Uniform size</label> <br>
-            <input type="checkbox" name="uniformsize" id="y-s">
+            <p><b>Uniform size</b></p>
+
             <label for="y-s">Youth Smal</label>
-            <input type="checkbox" name="uniformsize" id="medium">
-            <label for="medium">Medium</label> <br>
-            <input type="checkbox" name="uniformsize" id="y-m"> 
+            <input type="checkbox" name="uniformsize" id="y-s">
+
+            <label for="medium">Medium</label>
+            <input type="checkbox" name="uniformsize" id="medium"><br>
+
             <label for="y-m">Youth Medium</label>
-            <input type="checkbox" name="uniformsize" id="large">
-            <label for="large">Large</label> <br>
+            <input type="checkbox" name="uniformsize" id="y-m"> 
+            
+            <label for="large">Large</label> 
+            <input type="checkbox" name="uniformsize" id="large"><br>
+
+            <label for="y-l">Youth Large</label>
             <input type="checkbox" name="uniformsize" id="y-l">
-            <label for="y-l">Youth Large</label>  
-            <input type="checkbox" name="uniformsize" id="e-l">
-            <label for="e-l">Extra Large</label> <br>
+
+            <label for="e-l">Extra Large</label>
+            <input type="checkbox" name="uniformsize" id="e-l"><br>
+            
+            <label for="small">Small</label>
             <input type="checkbox" name="uniformsize" id="small">
-            <label for="small">Small</label> <br>    
+                 
 
         </fieldset>
         
@@ -144,23 +157,22 @@
             </p>
             
             <label for="p/g-s">Parent/GuardianSignature:</label>
-            <input type="sing" name="p/g-s" id="p/g-s"> <br>
+            <input type="text" name="p/g-s" id="p/g-s"> <br>
             <label for="date">Date</label>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required>
         
         </fieldset>
-
-        <label></label>
+        
+        <div class="formn">
 
         <input type="submit" value="Enviar">
         <input type="reset" value="Reset">
 
+    </div>
+
         
-
-
-
-
     </form>
+    </div>
 
 </body>
 </html>

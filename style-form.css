@@ -1,4 +1,8 @@
-
+* {
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+}
 
 body{
     background-color:antiquewhite;
@@ -52,3 +56,17 @@ body{
     text-align:center;
     font-weight: bold;
 }
+
+.logo {
+   width: 125px;
+}
+
+form, fieldset {
+   border:none;
+   justify-content: space-between;
+     
+  }
+
+  .formn {
+   text-align: center;
+  }

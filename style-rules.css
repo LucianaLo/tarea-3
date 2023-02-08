@@ -1,4 +1,5 @@
 
+
 body{
 background-color:antiquewhite;
 margin: 0%;
@@ -49,4 +50,8 @@ a{
 
 .title_main {
    text-align:center;
+}
+
+.logo {
+   width: 125px;
 }
